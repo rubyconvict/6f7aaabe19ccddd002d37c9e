@@ -1,0 +1,15 @@
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+
+node_js:
+  - '4.2.1'
+
+env:
+  global:
+    - NODE_ENV=test
+
+script: "npm run coverage"
+after_success: "< coverage/lcov.info ./node_modules/coveralls/bin/coveralls.js"

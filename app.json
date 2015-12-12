@@ -1,0 +1,20 @@
+{
+  "name": "xxx",
+  "description": "React + Webpack (SASS and React hot reloading)",
+  "keywords": [
+    "react"
+  ],
+  "website": "http://xxx.xx",
+  "repository": "https://github.com/srn/xxx",
+  "logo": "http://xxx.xx/xxx.png",
+  "env": {
+    "NODE_ENV": {
+      "description": "Set the `NODE_ENV` environment variable to `production` to disable debugging etc.",
+      "value": "production"
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "Be default heroku is not installing `devDependencies`, so let's do that.",
+      "value": "false"
+    }
+  }
+}
